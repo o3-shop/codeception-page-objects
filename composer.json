@@ -1,0 +1,39 @@
+{
+  "name": "o3-shop/codeception-page-objects",
+  "description": "Page Objects for O3-Shop acceptance tests on codeception",
+  "keywords": [
+    "o3-shop",
+    "codeception",
+    "pageObject",
+    "eShop"
+  ],
+  "homepage": "https://www.o3-shop.com/",
+  "license": [
+    "GPL-3.0-only",
+    "proprietary"
+  ],
+  "author": [
+    {
+      "name": "OXID eSales AG",
+      "email": "info@oxid-esales.com",
+      "homepage": "https://oxid-esales.com",
+      "role": "Developer"
+    },
+    {
+      "name": "O3-Shop",
+      "email": "info@o3-shop.com",
+      "homepage": "https://www.o3-shop.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OxidEsales\\Codeception\\Admin\\": "Admin",
+      "OxidEsales\\Codeception\\Page\\": "Page",
+      "OxidEsales\\Codeception\\Step\\": "Step"
+    }
+  },
+  "replace": {
+    "oxid-esales/codeception-page-objects": "2.3.0"
+  }
+}
