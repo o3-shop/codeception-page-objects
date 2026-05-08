@@ -35,5 +35,8 @@
   },
   "replace": {
     "oxid-esales/codeception-page-objects": "2.3.0"
+  },
+  "archive": {
+    "exclude": [".next-bump"]
   }
 }
